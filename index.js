@@ -385,6 +385,9 @@ sbnm.addEventListener("click",function(){
         konlms.style.display="block";
         btlnm.style.display="none";
         brnd.textContent="Kelola";
+        pnilai.style.display="none";/* tidak aktif ketika masuk sebgai guru*/
+        phmateri.style.display="none";/* tidak aktif ketika masuk sebgai guru*/
+        vidkbm.style.display="none";/* tidak aktif ketika masuk sebgai guru*/
         kelola.style.display="block";
         welcoming.style.display="none";
         gmp.innerText="Guru : "+nmkamu.value.toUpperCase();
@@ -616,6 +619,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
