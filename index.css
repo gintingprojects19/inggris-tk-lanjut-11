@@ -999,6 +999,9 @@
     #list-menu{
         width: 30%;
     }
+    #vocab{
+        height: 80vh;
+    }
 }
 
 @media only screen and (max-width: 942px) {
@@ -1537,4 +1540,5 @@
     #list-menu{
         width: 100%;
     }
+
 }
