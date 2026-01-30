@@ -8,7 +8,7 @@ var exshow=document.getElementById("ex-show");
 var smpp=document.getElementById("smpp");
 var lpsmpp=document.getElementById("lp-smpp");
 var exsmpp=document.getElementById("ex-smpp");
-var smppmc=new Audio("angels.mp3");
+var smppmc=new Audio("Iknow.mp3");
 var header=document.getElementById("header");
 var vocabulary=document.getElementById("vocab");
 var btnvocab=document.getElementById("btn-vocab");
@@ -619,6 +619,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
