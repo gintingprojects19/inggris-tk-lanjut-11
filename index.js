@@ -105,7 +105,7 @@ pilihvideo.addEventListener("change",function(){
     }
     if(pilihvideo.value=="e"){
         framevid.style.display="block";
-        framevid.src="https://www.youtube.com/embed/A_aePhLtpQ0";
+        framevid.src="https://www.youtube.com/embed/PNTCM7cbrsc";
         ketvideo.style.display="none";
     }
 })
@@ -619,6 +619,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
