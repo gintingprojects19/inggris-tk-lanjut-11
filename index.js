@@ -243,7 +243,7 @@ tipesoal.addEventListener("change", function(){
     if(tipesoal.value=="isiansingkat"){
         dessoal.style.display="none";
         assesment.style.display="block";
-        doassesment.src="https://docs.google.com/forms/d/e/1FAIpQLScNj0bmkc3TRNzD3TSiZEuDOIQfcRqGyu3Ifp4pVafZoiJj1g/viewform?usp=sharing&ouid=110367447242542532252";
+        doassesment.src="https://forms.gle/VtuRuiWavVGuAPSM8";
     }
     if(tipesoal.value=="lihatnilai"){
         dessoal.style.display="none";
@@ -619,6 +619,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
